@@ -1,0 +1,82 @@
+<?php
+	$idcode = hexdec(uniqid());
+	$ajaxUrl = admin_url('admin-ajax.php');
+	$_items = $params['items'];
+?>
+
+<table class="ipenelo-calendar-table">
+<thead>
+<tr>
+	<th colspan="2" class="background"><?php echo $translate->l('Date');?></th>
+	<th class="title"><?php echo $translate->l('Title');?></th>
+	<th class="price"><?php echo $translate->l('Price');?></th>
+	<th class="status"><?php echo $translate->l('Status');?></th>
+</tr>
+</thead>
+<tbody>
+<?php foreach ($_items as $_item) :?>
+
+
+<tr>
+<?php
+
+	$color = $_item['background']['value'];
+	if (strlen($color) > 7) {
+		$color = "url('".$color."') no-repeat scroll center center transparent";
+	}
+
+?>
+	<td class="background">
+		<span class="ipenelo-category" style="background:<?php echo $color; ?>;">&nbsp;</span>&nbsp;
+	</td>
+	<td class="time">
+		<?php
+		/*
+			This substr comparison is to display start date and end date, when the event is multi-day event
+			And when the event is not multi day, then we display start date and start time.
+		*/
+		?>
+		<?php if (substr($_item['active_from']['value'], 0, 10) != substr($_item['active_to']['value'], 0, 10)) : ?>
+			<?php
+				$froms = explode(' ', $_item['active_from']['valueText']);
+				$tos = explode(' ', $_item['active_to']['valueText']);
+			?>
+			<?php echo $froms[0];?> <span class="ipenelo-small">...<?php echo $tos[0];?></span>
+		<?php else : ?>
+			<?php echo $_item['active_from']['valueText'];?>
+		<?php endif; ?>
+	</td>
+	<td class="title">
+		<?php
+		/*
+			if event attribute url_click_title is true, then we make the title link clickable
+		*/
+		?>
+		<?php if ($_item['url_click_title']['value']): ?>
+			<a href="<?php echo $_item['url']['valueText']; ?>"><?php echo $_item['title']['valueText'];?></a>
+		<?php else : ?>
+			<?php echo $_item['title']['valueText'];?>
+		<?php endif; ?>
+		<?php if (!Eabi_Ipenelo_Calendar::get('disable_infoicon')): ?>
+			<a class="info-icon" onclick="ipenelo_calendar_register('<?php echo $_item['title']['valueText']; ?>', <?php echo $_item['id']['value']; ?>, '<?php echo $idcode; ?>'); return false;">i</a>
+		<?php endif; ?>
+	</td>
+	<td class="price">
+		<?php echo $_item['cost']['valueText'];?>
+	</td>
+	<td class="status">
+
+		<a class="ipenelo-register" onclick="ipenelo_calendar_register('<?php echo $_item['title']['valueText']; ?>', <?php echo $_item['id']['value']; ?>, '<?php echo $idcode; ?>'); return false;"><?php echo $_item['is_free']['valueText'];?></a>
+
+	</td>
+</tr>
+
+
+
+<?php endforeach; ?>
+
+</tbody>
+</table>
+<div id="theform<?php echo $idcode; ?>" style="display:none;" class="ipenelo-calendar-form"></div>
+
+

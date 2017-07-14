@@ -1,0 +1,995 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ipenelo Calendar\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Aktsiamaailm OÜ <info@e-abi.ee>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Estonian\n"
+
+# LANGUAGE (EN) translation for Ipenelo Calendar plugin.
+# Copyright (C) 2012 Eabi Ipenelo.
+# This file is distributed under the same license as the WordPress package.
+# Matis Halmann <info@e-abi.ee>, 2012.
+#
+msgid "%s minutes"
+msgstr "%s minutit"
+
+msgid "%s minute"
+msgstr "%s minut"
+
+msgid "%s hour and %s minutes"
+msgstr "%s tundi %s minutit"
+
+msgid "%s hours and %s minutes"
+msgstr "%s tundi  %s minutit"
+
+msgid "before the event starts"
+msgstr "sündmuse alguseni"
+
+msgid "%s day"
+msgstr "%s päev"
+
+msgid "%s days"
+msgstr "%s päeva"
+
+msgid "after the event starts"
+msgstr "pärast sündmuse algust"
+
+msgid "from the moment inserted"
+msgstr "lisamise hetkest"
+
+msgid "forever"
+msgstr "igavesti"
+
+msgid "after the event ends"
+msgstr "pärast sündmuse lõppu"
+
+msgid "dd.mm.yyyy"
+msgstr "pp.kk.aaaa"
+
+msgid "mm/dd/yyyy"
+msgstr "kk/pp/aaaa"
+
+msgid "yyyy-mm-dd"
+msgstr "aaaa-kk-pp"
+
+msgid "Dot (.)"
+msgstr "Punkt (.)"
+
+msgid "Comma (,)"
+msgstr "Koma (,)"
+
+msgid "None"
+msgstr "Puudub"
+
+msgid "Space ( )"
+msgstr "Tühik ( )"
+
+msgid "Apostrophe (')"
+msgstr "Ülakoma (')"
+
+msgid "To the left from the price"
+msgstr "Hinnast vasakul"
+
+msgid "To the right from the price"
+msgstr "Hinnast paremal"
+
+msgid "No"
+msgstr "Ei"
+
+msgid "Yes"
+msgstr "Jah"
+
+msgid "Medium"
+msgstr "Keskmine"
+
+msgid "Small"
+msgstr "Väike"
+
+msgid "Large"
+msgstr "Suur"
+
+msgid "If you would like to have more than 10 events, payment methods for your events, automatic emails after registration, then consider buying <a href=\"%s\" target=\"_blank\">Premium version of this Calendar.</a>"
+msgstr "Kui soovid sisestada rohkem kui 10 üritust, lisada pangalinke, saata klientidele kinnitusmeile peale registreerumist, siis palun lugege lähemalt meie kalendri <a href=\"%s\" target=\"_blank\">tasulisest versioonist</a>."
+
+msgid "Updated to version %s"
+msgstr "Uuendatud versioonile %s"
+
+msgid "There was an error with upgrading to version %s"
+msgstr "Uuendamine versioonile %s ei õnnestunud"
+
+msgid "Event Scheduler"
+msgstr "Sündmuste kalender"
+
+msgid "Manage events"
+msgstr "Halda sündmusi"
+
+msgid "Add new event"
+msgstr "Lisa uus sündmus"
+
+msgid "Add event"
+msgstr "Lisa sündmus"
+
+msgid "Manage Categories"
+msgstr "Halda kategooriaid"
+
+msgid "Settings"
+msgstr "Seaded"
+
+msgid "Payment settings"
+msgstr "Makse seaded"
+
+msgid "Payment Settings"
+msgstr "Makse seaded"
+
+msgid "Scheduler settings"
+msgstr "Kalendri seaded"
+
+msgid "Configuration_eabi_ipenelo_calendar_date_format"
+msgstr "Kuupäeva vorming"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_thumb_height"
+msgstr "Pisipildi kõrgus"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_thumb_width"
+msgstr "Pisipildi laius"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_thumb_crop"
+msgstr "Lõika maha pisipildi ääred"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_normal_height"
+msgstr "Tavapildi kõrgus"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_normal_width"
+msgstr "Tavapildi laius"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_normal_crop"
+msgstr "Lõika pildi ääred"
+
+msgid "Configuration_eabi_ipenelo_calendar_tb_height"
+msgstr "Sündmuse detailvaate kõrgus pikslites"
+
+msgid "Configuration_eabi_ipenelo_calendar_tb_width"
+msgstr "Sündmuse detailvaate laius pikslites"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_num_decimals"
+msgstr "Näita mitu kümmendkohta peale koma?"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_decimal_separator"
+msgstr "Komakoha eraldaja"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_thousands_separator"
+msgstr "Tuhandeliste eraldusmärk"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_symbol"
+msgstr "Valuuta sümbol"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_symbol_position"
+msgstr "Valuuta sümboli paiknevus hinna suhtes"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_iso"
+msgstr "Valuuta ISO kood"
+
+msgid "Configuration_eabi_ipenelo_calendar_log_to_register"
+msgstr "Ainult Wordpressi registreeritud kasutajad saavad ennast kirja panna"
+
+msgid "Configuration_eabi_ipenelo_calendar_log_to_view"
+msgstr "Ainult Wordpressi registreeritud kasutajad saavad sündmusi vaadata"
+
+msgid "Configuration_eabi_ipenelo_calendar_show_free_spots"
+msgstr "Näita vabade kohtade arvu sündmuse detailivaates"
+
+msgid "Configuration_eabi_ipenelo_calendar_calendar_size"
+msgstr "Vaikimisi kalendri suurus lühikoodi jupikeses"
+
+msgid "Configuration_eabi_ipenelo_calendar_event_lasts"
+msgstr "Vaikimisi sündmuse kestvus uue lisamisel"
+
+msgid "Configuration_eabi_ipenelo_calendar_registration_lasts"
+msgstr "Vaikimisi viimane kirjapaneku tähtaeg uue sündmuse lisamisel"
+
+msgid "Configuration_eabi_ipenelo_calendar_visible_from"
+msgstr "Vaikimisi on uus sündmus lisamisel nähtav alates"
+
+msgid "Configuration_eabi_ipenelo_calendar_visible_to"
+msgstr "Vaikimisi on uus sündmus lisamisel nähtav kuni"
+
+msgid "Configuration_eabi_ipenelo_calendar_payment_success"
+msgstr "Leht, kuhu kasutaja suunata eduka makse korral"
+
+msgid "Configuration_eabi_ipenelo_calendar_payment_cancel"
+msgstr "Leht kuhu kasutaja suunata vigase makse korral"
+
+msgid "Configuration_eabi_ipenelo_calendar_theme"
+msgstr "Kalendri stiil avalikul poolel"
+
+msgid "Configuration_eabi_ipenelo_calendar_color_calendar"
+msgstr "Kuupäevad kalendri vaates kasutavad sündmuste taustavärve"
+
+msgid "Configuration_eabi_ipenelo_calendar_disable_tooltips"
+msgstr "Keela kõik abistavad tekstid sisestusvormidel"
+
+msgid "Configuration_eabi_ipenelo_calendar_show_link"
+msgstr "Näita autori linki Sündmuste kalendris ning tabelikuvas"
+
+msgid "Save changes"
+msgstr "Salvesta muudatused"
+
+msgid "Settings have been successfully saved"
+msgstr "Seaded salvestati"
+
+msgid "Payment method title"
+msgstr "Maksemeetodi pealkiri"
+
+msgid "Allow payments to be placed using this method"
+msgstr "Luba makseid selle meetodiga"
+
+msgid "Description"
+msgstr "Kirjeldus"
+
+msgid "Your Name"
+msgstr "Sinu nimi"
+
+msgid "Your name is required"
+msgstr "Sinu nimi on nõutud"
+
+msgid "Pick a payment method to configure"
+msgstr "Vali maksemeetod, mida soovid muuta"
+
+msgid "Pick a payment method to configure...."
+msgstr "Vali maksemeetod, mida soovid muuta..."
+
+msgid "Configure..."
+msgstr "Seadista..."
+
+msgid "Edit payment method"
+msgstr "Muuda makseviisi"
+
+msgid "Payment method saved"
+msgstr "Makseviis salvestatud"
+
+msgid "Manage Events"
+msgstr "Halda sündmuseid"
+
+msgid "Select status"
+msgstr "Vali hetkeseis"
+
+msgid "Enabled"
+msgstr "Lubatud"
+
+msgid "Disabled"
+msgstr "Keelatud"
+
+msgid "Sold out"
+msgstr "Välja müüdud"
+
+msgid "Ended"
+msgstr "Lõppenud"
+
+msgid "Delete"
+msgstr "Kustuta"
+
+msgid "About to delete, are you sure?"
+msgstr "Oled kindel, et soovid kustutada?"
+
+msgid "Update status"
+msgstr "Uuenda hetkeseisu"
+
+msgid "Update status for selected items?"
+msgstr "Muuda valitud sündmuste hetkeseisu?"
+
+msgid "Edit"
+msgstr "Muuda"
+
+msgid "View registrants"
+msgstr "Vaata registreerujaid"
+
+msgid "All items"
+msgstr "Kõik sissekanded"
+
+msgid "Mass actions"
+msgstr "Vali operatsioon..."
+
+msgid "Apply"
+msgstr "Rakenda"
+
+msgid "Select action first"
+msgstr "Palun vali operatsioon, mida soovid teostada"
+
+msgid "Please select items first!"
+msgstr "Vali esmalt sissekanne!"
+
+msgid "%status% is required!"
+msgstr "%status%  on vajalik!"
+
+msgid "Elements"
+msgstr "Elementi"
+
+msgid "Users registered"
+msgstr "Kirjapanijaid"
+
+msgid "New Event"
+msgstr "Uus sündmus"
+
+msgid "Title is required"
+msgstr "Pealkiri on nõutud"
+
+msgid "Required entry"
+msgstr "Kohustuslik väli"
+
+msgid "Title"
+msgstr "Pealkiri"
+
+msgid "Invalid URL"
+msgstr "Vigane veebilehe aadress"
+
+msgid "Url"
+msgstr "Link"
+
+msgid "Start date is required"
+msgstr "Alguskuupäev on nõutud"
+
+msgid "Start date is invalid"
+msgstr "Alguskuupäev on vigane"
+
+msgid "Starts"
+msgstr "Algab"
+
+msgid "Invalid date"
+msgstr "Vigane kuupäev"
+
+msgid "Invalid time"
+msgstr "Vigane kellaaeg"
+
+msgid "It's possible to use arrow keys, page-up, page-down or mouse to adjust time."
+msgstr "Aega on võimalik muuta, kasutades nooleklahve, PgUp, PgDown, või hiirt."
+
+msgid "You can turn off tooltips under the <a href=\"%s\">Calendar settings</a> menu."
+msgstr "Abistavaid tekste sisestusvormidel saab keelata <a href=\"%s\">Kalendri seadistustest</a>."
+
+msgid "Ends date is invalid"
+msgstr "Lõpukuupäev on vigane"
+
+msgid "Ends date is required"
+msgstr "Lõpukuupäev on nõutud"
+
+msgid "Active to date should be greater than Active from date"
+msgstr "Sündmus peaks algama enne kui ta lõppeb"
+
+msgid "Ends"
+msgstr "Lõppeb"
+
+msgid "Description is required"
+msgstr "Kirjeldus on kohustuslik!"
+
+msgid "Full day event"
+msgstr "Terve päeva üritus"
+
+msgid "This is paid event"
+msgstr "See üritus on tasuline"
+
+msgid "Cost is required for the paid event"
+msgstr "Tasulisel üritusel osalemiseks on vaja teostada makse"
+
+msgid "Cost price is invalid"
+msgstr "Hind on vigaselt sisestatud"
+
+msgid "Invalid price"
+msgstr "Viga hinnas"
+
+msgid "Cost"
+msgstr "Hind"
+
+msgid "Invalid Amount"
+msgstr "Vale summa"
+
+msgid "Invalid amount"
+msgstr "Vale summa"
+
+msgid "Maximum registrants allowed"
+msgstr "Maksimaalne osalejate arv"
+
+msgid "Leave this field to 0 to allow unlimited registrants."
+msgstr "Kui osalejate arv pole piiratud, sisesta siia 0"
+
+msgid "You can use arrow keys to change the value of this field"
+msgstr "Selle rea muutmiseks kasuta nooleklahve"
+
+msgid "Last registration date is invalid"
+msgstr "Viga viimases registreerimiskuupäevas"
+
+msgid "Last registration date should be less than Active to date"
+msgstr "Viimane registreerimise kuupäev peaks olema enne sündmuse lõppu"
+
+msgid "Registration lasts until"
+msgstr "Registreerimine lõppeb"
+
+msgid "Visible from date should be less than Active from date"
+msgstr "Sündmus peaks olema nähtav enne kui ta algab"
+
+msgid "Visible from date is required"
+msgstr "Sisesta nähtav alates kuupäev"
+
+msgid "Visible from date is invalid"
+msgstr "Nähtav alates kuupäev on vale"
+
+msgid "Visible from"
+msgstr "Nähtav alates"
+
+msgid "Visible to date should be greater than Active to date"
+msgstr "Sündmus peaks peale tema lõppemist olema vähemalt minut aega nähtav"
+
+msgid "Visible to date is required"
+msgstr "Nähtav kuni on vajalik"
+
+msgid "Visible to date is invalid"
+msgstr "Nähtav kuni on vigane"
+
+msgid "Visible to"
+msgstr "Nähtav kuni"
+
+msgid "Invalid color or URL"
+msgstr "Viga värvikoodis või veebilingi korrektsuses"
+
+msgid "Invalid color or image URL"
+msgstr "Viga värvikoodis või pildi aadressi korrektsuses"
+
+msgid "Background"
+msgstr "Tunnusvärv"
+
+msgid "Select color"
+msgstr "Vali värv"
+
+msgid "Select image"
+msgstr "Vali pilt"
+
+msgid "If you leave this field empty, background from the selected category will be used"
+msgstr "Kui jätad selle välja tühjaks, kasutatakse sündmusele valitud kategooria tunnusvärvi"
+
+msgid "Author is required"
+msgstr "Sündmuse autor on kohutuslik"
+
+msgid "Event author"
+msgstr "Sündmuse autor"
+
+msgid "Category is required"
+msgstr "Kategooria on kohustuslik"
+
+msgid "Event status"
+msgstr "Sündmuse hetkeseis"
+
+msgid "Category"
+msgstr "Kategooria"
+
+msgid "Free!"
+msgstr "Tasuta"
+
+msgid "Number of events updated to new status:"
+msgstr "Sündmuste arv, milledel hetkeseisu uuendati:"
+
+msgid "New status:"
+msgstr "Uus hetkeseis:"
+
+msgid "Number of registrants deleted:"
+msgstr "Kustutatud kirjapanijate arv:"
+
+msgid "Number of events deleted:"
+msgstr "Kustutatud sündmuste arv:"
+
+msgid "Manage registrants (%s)"
+msgstr "Kirjapanijate haldus (%s)"
+
+msgid "Pending"
+msgstr "Kinnituse ootel"
+
+msgid "Payment accepted"
+msgstr "Kinnituse ootel, makstud"
+
+msgid "Accepted"
+msgstr "Kinnitatud"
+
+msgid "Rejected"
+msgstr "Tagasi lükatud"
+
+msgid "Add new registrant"
+msgstr "Lisa uus kirjapanija"
+
+msgid "View event"
+msgstr "Vaata sündmust"
+
+msgid "Back to event list"
+msgstr "Tagasi sündmuste nimekirja"
+
+msgid "Mark as paid"
+msgstr "Märgi makstuks"
+
+msgid "Element"
+msgstr "Element"
+
+msgid "New Registrant"
+msgstr "Uus kirjapanija"
+
+msgid "Edit Registrant"
+msgstr "Muuda kirjapanijat"
+
+msgid "First name"
+msgstr "Eesnimi"
+
+msgid "Last name"
+msgstr "Perekonnanimi"
+
+msgid "Registered user"
+msgstr "Wordpressi kasutaja"
+
+msgid "E-mail"
+msgstr "E-post"
+
+msgid "Email is required"
+msgstr "E-post on vajalik"
+
+msgid "Registrant status"
+msgstr "Kirjapanija hetkeseis"
+
+msgid "Registrant status is required"
+msgstr "Kirjapanija hetkeseis on vajalik"
+
+msgid "Registration date"
+msgstr "Kirjapanemise kuupäev"
+
+msgid "Registration date is required"
+msgstr "Kirjapanemise kuupäev on vajalik"
+
+msgid "Registration date is invalid"
+msgstr "Kirjapanemise kuupäev on vigane"
+
+msgid "Payment date"
+msgstr "Makse sooritamise kuupäev"
+
+msgid "Payment date is invalid"
+msgstr "Makse sooritamise kuupäev on vigane"
+
+msgid "Registrant successfully saved"
+msgstr "Kirjapanija salvestatud"
+
+msgid "No items found"
+msgstr "Sissekandeid ei leitud"
+
+msgid "Manage categories"
+msgstr "Halda kategooriaid"
+
+msgid "Add new category"
+msgstr "Lisa uus kategooria"
+
+msgid "New Category"
+msgstr "Uus kategooria"
+
+msgid "Name"
+msgstr "Nimetus"
+
+msgid "Name is required"
+msgstr "Nimetus on kohustuslik"
+
+msgid "Is active?"
+msgstr "Aktiivne?"
+
+msgid "Background is required"
+msgstr "Tunnusvärv on kohustuslik"
+
+msgid "Sort order is required"
+msgstr "Sorteerimise järjekord on kohustuslik"
+
+msgid "Invalid sort order"
+msgstr "Vigane sorteerimise järjekord, ainult numbrid on lubatud"
+
+msgid "Sort order"
+msgstr "Sorteerimise järjekord"
+
+msgid "Category successfully saved"
+msgstr "Kategooria salvestatud"
+
+msgid "Edit category"
+msgstr "Muuda kategooriat"
+
+msgid "Edit event"
+msgstr "Muuda sündmust"
+
+msgid "Event has been successfully saved"
+msgstr "Sündmus salvestatud"
+
+msgid "Number of categories deleted:"
+msgstr "Kustuatud kategooriate arv:"
+
+msgid "Close"
+msgstr "Sulge"
+
+msgid "Price"
+msgstr "Hind"
+
+msgid "Status"
+msgstr "Hetkeseis"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "No limit"
+msgstr "Pole piirangut"
+
+msgid "Register"
+msgstr "Registreeru"
+
+msgid "Registration ended"
+msgstr "Registreerumine lõppenud"
+
+msgid "Started"
+msgstr "Algas"
+
+msgid "Free spots"
+msgstr "Vabu kohti"
+
+msgid "Can register"
+msgstr "Saab registreeruda"
+
+msgid "Registered"
+msgstr "Registreeritud"
+
+msgid "Date"
+msgstr "Kuupäev"
+
+msgid "Registration successful"
+msgstr "Registreerumine õnnestus"
+
+msgid "Dear %1$s %2$s,"
+msgstr "Hea %1$s %2$s,"
+
+msgid "You have successfully registered for the event: %1$s"
+msgstr "Oled edukalt registreerunud sündmusele: %1$s"
+
+msgid "Event starts: %1$s"
+msgstr "Sündmus algab: %1$s"
+
+msgid "Kind regards"
+msgstr "Tervitustega"
+
+msgid "Open for registration"
+msgstr "Registreerimiseks avatud"
+
+msgid "You have an account with us, please log in"
+msgstr "Sul on meie lehel kasutaja olemas, logi sisse"
+
+msgid "Supplied E-mail has already been used to register for this event"
+msgstr "Antud e-maili aadressiga on sellele üritusele juba registreeritud"
+
+msgid "You can only register with your email: %s"
+msgstr "Registreerida saab vaid e-maili aadressiga: %s"
+
+msgid "Payment method"
+msgstr "Maksemeetod"
+
+msgid "Payment method is required"
+msgstr "Maksemeetodi valimine on kohustuslik"
+
+msgid "Extra payment info"
+msgstr "Makse lisainfo"
+
+msgid "Booking to"
+msgstr "Kirjapaneku tähtaeg"
+
+msgid "Your registration info"
+msgstr "Sinu registreerimise info"
+
+msgid "Registration status"
+msgstr "Registreerimise hetkeseis"
+
+msgid "Start payment"
+msgstr "Teosta makse"
+
+msgid "Payment operation failed"
+msgstr "Makse teostamine ebaõnnestus"
+
+msgid "Payment successful"
+msgstr "Makse õnnestus"
+
+msgid "You have successfully paid for the event: %1$s"
+msgstr "Oled tasunud osaluse eest üritusel: %1$s"
+
+msgid "Mark selected items as paid?"
+msgstr "Märgi kirjapanijad makstuks?"
+
+msgid "Mark as accepted"
+msgstr "Märgi vastuvõetuks"
+
+msgid "Mark selected items as accepted?"
+msgstr "Märgi valitud kirjapanijad vastuvõetuks?"
+
+msgid "Mark as rejected"
+msgstr "Märgi tagasilükatuks"
+
+msgid "Mark selected items as rejected?"
+msgstr "Märgi valitud kirjapanijad tagasilükatuks?"
+
+msgid "Registrant with id %s could not be marked as paid"
+msgstr "Kirjapanijat ei õnnestunud märkida makstuks, tema ID on %s "
+
+msgid "Registrant with email %s marked as paid"
+msgstr "Kirjapanija märgiti makstuks, tema e-post on %s"
+
+msgid "Registrant with email %s marked as accepted"
+msgstr "Kirjapanija, kelle e-post on %s märgiti aktsepteerituks"
+
+msgid "Registrant with email %s is already accepted or rejected and cannot be accepted"
+msgstr "Kirjapanijat ei saa aktsepteerida, sest olete teda juba keelanud. Kustutage ta ja tehke nullist uuesti. Probleemse kirjapanija e-post on %s"
+
+msgid "Registrant with email %s could not be marked as paid"
+msgstr "Kirjapanijat ei õnnestunud märkida makstuks, tema e-post on %s"
+
+msgid "Registrant with email %s has probably paid, maybe he needs a refund"
+msgstr "Kirjapanija, kelle e-post on %s, on tõenäoliselt maksnud. Võimalik, et ta vajab raha tagastamist"
+
+msgid "Registrant with email %s marked as rejected"
+msgstr "Registreeruja, kelle e-post on %s, lükati tagasi"
+
+msgid "Registrant with email %s has not paid, mark the registrant as paid before accepting"
+msgstr "Registreeruja, kelle e-post on %s, pole maksnud. Palun märkige tema hetkeseis makstuks, enne kui teda kinnitate."
+
+msgid "Registration accepted"
+msgstr "Kirjapanek aktsepteeritud"
+
+msgid "Your registrations has been accepted for the event: %1$s"
+msgstr "Sinu kirjapanek sündmusele \"%1$s\" on aktsepteeritud"
+
+msgid "Registration rejected"
+msgstr "Kirjapanek tagasil ükatud"
+
+msgid "Your registration has been rejected for the event: %1$s"
+msgstr "Sinu kirjapanek sündmusele \"%1$s\" on tagasi lükatud"
+
+msgid "Close window"
+msgstr "Sulge aken"
+
+msgid "You cannot change the email of %s for this registrant"
+msgstr "Te ei saa muuta käesoleva kirjapanija e-post aadressi %s"
+
+msgid "Back to registrants list"
+msgstr "Tagasi kirjapanijate nimekirja"
+
+msgid "Correct email for the registered user is %s, You need to use this email, if you wish to assign this entry to selected registered user"
+msgstr "Õige e-post käesolevale kirjapanijale on %s. Palun kasutage ainult seda e-posti aadressi."
+
+msgid "Correct email for the registered user is %s. You need to use this email, if you wish to assign this entry to the selected registered user"
+msgstr "Õige e-post käesolevale kirjapanijale on %s. Palun kasutage ainult seda e-posti aadressi."
+
+msgid "Entered email belongs to logged in user"
+msgstr "Sisestatud e-posti aadress kuulub Teie Wordpressi kasutajale"
+
+msgid "Entered email is registered for the user %s. Please set this user as Registered user or choose another email"
+msgstr "Sisestatud e-posti aadress kuulub kasutajale %s. Palun valige see Wordpressi kasutaja või kasutage mõnda teist e-posti aadressi"
+
+msgid "Payment date was not set for the event, if the saved Registrant did not actually pay, then re-open the registrant and verify details before saving"
+msgstr "Makse teostamise kuupäeva polnud seatud. Kui kirjapanija tegelikult ei maksnud, siis taasavage kirjapanija ning veenduge andmete korrektsuses"
+
+msgid "Event was not marked as paid"
+msgstr "Sündmust ei märgitud makstuks"
+
+msgid "Registrant marked as accepted"
+msgstr "Kirjapanija kinnitati"
+
+msgid "Registrant was marked as paid"
+msgstr "Kirjapanija makse vastu võetud"
+
+msgid "Event started"
+msgstr "Sündmus on alanud"
+
+msgid "Expired"
+msgstr "Lõppenud"
+
+msgid "Category with id %s cannot be deleted because it has events"
+msgstr "Kategooriat, mille ID on %s, ei saa kustutada, sest tema küljes on sündmusi"
+
+msgid "Insert Ipenelo Calendar"
+msgstr "Sisesta Ipenelo Kalender"
+
+msgid "Event list type"
+msgstr "Sündmuse kuvamise viis"
+
+msgid "Calendar"
+msgstr "Kalender"
+
+msgid "Table"
+msgstr "Tabel"
+
+msgid " -- Please select -- "
+msgstr " -- palun vali -- "
+
+msgid "Calendar size (Calendar view only)"
+msgstr "Kalendri suurus (ainult kalendri vaates)"
+
+msgid "Calendar position (Calendar view only)"
+msgstr "Kalendri infoakna asukoht (ainult kalendri vaates)"
+
+msgid "Bottom"
+msgstr "All"
+
+msgid "Top"
+msgstr "Üleval"
+
+msgid "Left"
+msgstr "Vasakul"
+
+msgid "Right"
+msgstr "Paremal"
+
+msgid "Show only active events"
+msgstr "Näita ainult aktiivseid sündmusi"
+
+msgid "Show events only within the selected month"
+msgstr "Näita ainult valitud kuu sündmusi"
+
+msgid "All events"
+msgstr "Kõik sündmused"
+
+msgid "Current"
+msgstr "Praegune"
+
+msgid "Next"
+msgstr "Järgmine"
+
+msgid "Month"
+msgstr "Eelmine"
+
+msgid "Year"
+msgstr "Aasta"
+
+msgid "Filter by event ids, comma separated"
+msgstr "Sisesta sündmuste ID-d, komadega eraldatult"
+
+msgid "Filter by category ids, comma separated"
+msgstr "Sisesta kategooriate ID-d, komadega eraldatult"
+
+msgid "Insert Calendar shortcode"
+msgstr "Lisa lühikoodi jupp postitusse"
+
+msgid "Sandbox mode"
+msgstr "Testrežiim (Sandbox mode)"
+
+msgid "Api Account name"
+msgstr "Api Account name"
+
+msgid "Api Account password"
+msgstr "Api Account password"
+
+msgid "Api Account certificate"
+msgstr "Api Account certificate"
+
+msgid "New payment method"
+msgstr "Uus maksemeetod"
+
+msgid "Email"
+msgstr "E-post"
+
+msgid "IPN (Instant payment Notification)"
+msgstr "IPN (Instant payment Notification)"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Method"
+msgstr "Meetod"
+
+msgid "'Starts' date should be greater than 'Ends' date"
+msgstr "'Algab' kuupäev peaks olema enne 'Lõppeb' kuupäeva"
+
+msgid "Last registration date should be less than 'Ends' date"
+msgstr "Viimane registruurimise kuupäev peaks olema enne  'Lõppeb' kuupäeva"
+
+msgid "Visible to date should be greater than 'Ends' date"
+msgstr "Nähtav kuni kuupäev peaks olema peale 'Lõppeb' kuupäeva"
+
+msgid "Scheduler Thumbnail"
+msgstr "Pisipilt"
+
+msgid "(%d&nbsp;&times;&nbsp;%d)"
+msgstr "(%d&nbsp;&times;&nbsp;%d)"
+
+msgid "Configuration_eabi_ipenelo_calendar_from_email"
+msgstr "Teavitusmeili saaja e-post"
+
+msgid "Configuration_eabi_ipenelo_calendar_from_name"
+msgstr "Teavitusmeili saaja nimi"
+
+msgid "Configuration_eabi_ipenelo_calendar_default_category"
+msgstr "Vaikimisi valitud kategooria"
+
+msgid "Configuration_eabi_ipenelo_calendar_enable_12h"
+msgstr "Näita 12-tunnist ajasüsteemi"
+
+msgid "Calendar event window position (Calendar view only)"
+msgstr "Vaikimisi kalendri suurus lühikoodi jupikeses"
+
+msgid "Sandbox mode (Testmode)"
+msgstr "Testrežiim (Sandbox mode)"
+
+msgid "You just saved paid event, but currency has not been set up under Settings menu!"
+msgstr "Lisasite just tasulise sündmuse, kuid valuutad on täiesti seadistamata!"
+
+msgid "You just saved paid event, but currency has not been set up properly under Settings menu!"
+msgstr "Lisasite just tasulise sündmuse, kuid valuutad on täiesti seadistamata!"
+
+msgid "You just saved a paid event, but you don't have any active payment methods"
+msgstr "Lisasite just tasulise sündmuse, kuid mitte ühtegi makseviisi pole Teie klientidel võimalik kasutada"
+
+msgid "Configuration_eabi_ipenelo_calendar_show_in_admin_bar"
+msgstr "Näita administraatori haldusribal"
+
+msgid "Add new Event"
+msgstr "Lisa uus sündmus"
+
+msgid "Ipenelo Calendar"
+msgstr "Ipenelo Kalender"
+
+msgid "If empty, email settings from the <a href=\"%s\">Options</a> will be used"
+msgstr "Kui jätate tühjaks, siis e-posti aadress võetakse <a href=\"%s\">Seadetest</a>"
+
+msgid "If empty, email settings from the <a href='%s'>Options</a> will be used"
+msgstr "Kui jätate tühjaks, siis e-posti aadress võetakse <a href=\"%s\">Seadetest</a>"
+
+msgid "If left empty, email settings from the <a href='%s'>General options</a> will be used"
+msgstr "Kui jätate tühjaks, siis e-posti aadress võetakse <a href=\"%s\">Seadetest</a>"
+
+msgid "Tooltips like the one you are reading right now are not shown, when you enable this option"
+msgstr "Abitekst, mida loete hetkel, ei kuva Teile ennast enam rohkem, kui lubate käesoleva seadistuse"
+
+msgid "Tooltips, like the one you are reading right now, are not shown, when you enable this option"
+msgstr "Abitekst, mida loete hetkel, ei kuva Teile ennast enam rohkem, kui lubate käesoleva seadistuse"
+
+msgid "If you are using paid events, then you need to make sure that the currency ISO code is correct. Examples can be USD, EUR, JPY...."
+msgstr "Kui kasutate tasulisi sündmusi, siis korrektne Valuuta ISO kood on kohustuslik. Näited: USD, EUR, JPY, GBP"
+
+msgid "Make title link"
+msgstr "Tee pealkirjast link"
+
+msgid "Make event title clickable link"
+msgstr "Tee pealkirjast klikatav link"
+
+msgid "Forces the Start and End times to be at 00:00 and 23:59 respectively"
+msgstr "Määrab sündmuse algusajaks 00:00 ning lõppemise ajaks 23:59 ning ei kuva kellaaega avalikul poolel"
+
+msgid "Security validation failed"
+msgstr "Turvakontroll ei õnnestunud"
+
+msgid "Type 'current' to get the event ID from URL request parameter. Example: %s/?event_id=x "
+msgstr "Sisesta 'current' et kuvada sündmus _GET muutuja abil. Näiteks: %s/?event_id=x "
+
+msgid "All day"
+msgstr "Kogu päeva"
+
+msgid "Configuration_eabi_ipenelo_calendar_disable_registration"
+msgstr "Keela registreerumine"
+
+msgid "Registration is disabled"
+msgstr "Registreerumine keelatud"
+
+msgid "When registration is disabled Calendar can be shown just for showing your schedule"
+msgstr "Kui registreerumine on keelatud, siis kalender käitub kui isiklik päevakava näitaja."
+
+msgid "When registration is disabled Calendar can be used just for showing your schedule"
+msgstr "Kui registreerumine on keelatud, siis kalender käitub kui isiklik päevakava näitaja."
+
+msgid "Configuration_eabi_ipenelo_calendar_disable_infoicon"
+msgstr "Peida Infoikoon (link detailivaatele) kalendri nimekirja vaatest"
+
+msgid "When disabled Information icon will not be displayed next to the event title in the event list. <br/>Disabling this may mean that users cannot access detailed view for the event when registration is disabled"
+msgstr "Kui käesolev seadistus on lubatud, siis sündmuse nimekirjas ei kuvata sündmuse detailvaadet avavat ikoonikest pealkirja kõrval.<br/>See tähendab, et sedasi lehe külastajad ei näe sündmuse detailvaadet kui registreerumine on keelatud."
+
+msgid "When disabled, information icon, which opens the detail view, will not be displayed next to the event title in the event list. <br/>Disabling this may mean that users cannot access detailed view for the event when registration is disabled"
+msgstr "Kui käesolev seadistus on lubatud, siis sündmuse nimekirjas ei kuvata sündmuse detailvaadet avavat ikoonikest pealkirja kõrval.<br/>See tähendab, et sedasi lehe külastajad ei näe sündmuse detailvaadet kui registreerumine on keelatud."
+
+msgid "Please support our work by placing author links at the bottom of each Calendar and List view on the public side. <a href=\"%s\">Click here to enable.</a>"
+msgstr "Toeta selle kalendri autoreid! <a href=\"%s\">Kliki siia, et kuvada autori linki iga kalendri ning tabelivaate all</a>."
+
+msgid "Thank you for your support!"
+msgstr "Suur tänu toetamise eest!"
+

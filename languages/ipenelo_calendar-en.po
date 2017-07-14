@@ -1,0 +1,986 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ipenelo Calendar\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Aktsiamaailm OÜ <info@e-abi.ee>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+
+# LANGUAGE (EN) translation for Ipenelo Calendar plugin.
+# Copyright (C) 2012 Eabi Ipenelo.
+# This file is distributed under the same license as the WordPress package.
+# Matis Halmann <info@e-abi.ee>, 2012.
+#
+msgid "%s minutes"
+msgstr "%s minutes"
+
+msgid "%s minute"
+msgstr "%s minute"
+
+msgid "%s hour and %s minutes"
+msgstr "%s hour and %s minutes"
+
+msgid "%s hours and %s minutes"
+msgstr "%s hours and %s minutes"
+
+msgid "before the event starts"
+msgstr "before the event starts"
+
+msgid "%s day"
+msgstr "%s day"
+
+msgid "%s days"
+msgstr "%s days"
+
+msgid "after the event starts"
+msgstr "after the event starts"
+
+msgid "from the moment inserted"
+msgstr "from the moment inserted"
+
+msgid "forever"
+msgstr "forever"
+
+msgid "after the event ends"
+msgstr "after the event ends"
+
+msgid "dd.mm.yyyy"
+msgstr "dd.mm.yyyy"
+
+msgid "mm/dd/yyyy"
+msgstr "mm/dd/yyyy"
+
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+msgid "Dot (.)"
+msgstr "Dot (.)"
+
+msgid "Comma (,)"
+msgstr "Comma (,)"
+
+msgid "None"
+msgstr "None"
+
+msgid "Space ( )"
+msgstr "Space ( )"
+
+msgid "Apostrophe (')"
+msgstr "Apostrophe (')"
+
+msgid "To the left from the price"
+msgstr "To the left from the price"
+
+msgid "To the right from the price"
+msgstr "To the right from the price"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Small"
+msgstr "Small"
+
+msgid "Large"
+msgstr "Large"
+
+msgid "Updated to version %s"
+msgstr "Updated to version %s"
+
+msgid "Event Scheduler"
+msgstr "Event Scheduler"
+
+msgid "Manage events"
+msgstr "Manage events"
+
+msgid "Add new event"
+msgstr "Add new event"
+
+msgid "Add event"
+msgstr "Add event"
+
+msgid "Manage Categories"
+msgstr "Manage Categories"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Payment settings"
+msgstr "Payment settings"
+
+msgid "Payment Settings"
+msgstr "Payment Settings"
+
+msgid "Scheduler settings"
+msgstr "Scheduler settings"
+
+msgid "Configuration_eabi_ipenelo_calendar_date_format"
+msgstr "Date format"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_thumb_height"
+msgstr "Image thumb height"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_thumb_width"
+msgstr "Image thumb width"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_thumb_crop"
+msgstr "Image thumb crop"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_normal_height"
+msgstr "Image normal height"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_normal_width"
+msgstr "Image normal width"
+
+msgid "Configuration_eabi_ipenelo_calendar_image_normal_crop"
+msgstr "Image normal crop"
+
+msgid "Configuration_eabi_ipenelo_calendar_tb_height"
+msgstr "Thickbox height"
+
+msgid "Configuration_eabi_ipenelo_calendar_tb_width"
+msgstr "Thickbox width"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_num_decimals"
+msgstr "Number of decimals for the currency"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_decimal_separator"
+msgstr "Decimal separator"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_thousands_separator"
+msgstr "Thousands separator for the currency"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_symbol"
+msgstr "Currency symbol"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_symbol_position"
+msgstr "Currency symbol location"
+
+msgid "Configuration_eabi_ipenelo_calendar_currency_iso"
+msgstr "Currency ISO"
+
+msgid "Configuration_eabi_ipenelo_calendar_log_to_register"
+msgstr "Only registered users can sign up"
+
+msgid "Configuration_eabi_ipenelo_calendar_log_to_view"
+msgstr "Only registered users can view events"
+
+msgid "Configuration_eabi_ipenelo_calendar_show_free_spots"
+msgstr "Show number of free spots available"
+
+msgid "Configuration_eabi_ipenelo_calendar_calendar_size"
+msgstr "Default calendar size in shortcode"
+
+msgid "Configuration_eabi_ipenelo_calendar_event_lasts"
+msgstr "By default event lasts"
+
+msgid "Configuration_eabi_ipenelo_calendar_registration_lasts"
+msgstr "By default users can register until"
+
+msgid "Configuration_eabi_ipenelo_calendar_visible_from"
+msgstr "By default event visible from"
+
+msgid "Configuration_eabi_ipenelo_calendar_visible_to"
+msgstr "By default event visible to"
+
+msgid "Configuration_eabi_ipenelo_calendar_payment_success"
+msgstr "Payment success page"
+
+msgid "Configuration_eabi_ipenelo_calendar_payment_cancel"
+msgstr "Payment cancel page"
+
+msgid "Configuration_eabi_ipenelo_calendar_theme"
+msgstr "Calendar theme for the frontend"
+
+msgid "Configuration_eabi_ipenelo_calendar_color_calendar"
+msgstr "Use event background colors for the Calendar days"
+
+msgid "Configuration_eabi_ipenelo_calendar_disable_tooltips"
+msgstr "Disable helper tooltips for the administration forms"
+
+msgid "Configuration_eabi_ipenelo_calendar_show_link"
+msgstr "Show author links at the bottom of Calendar and List view"
+
+msgid "Save changes"
+msgstr "Save changes"
+
+msgid "Settings have been successfully saved"
+msgstr "Settings have been successfully saved"
+
+msgid "Payment method title"
+msgstr "Payment method title"
+
+msgid "Allow payments to be placed using this method"
+msgstr "Allow payments to be placed using this method"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Your Name"
+msgstr "Your Name"
+
+msgid "Your name is required"
+msgstr "Your name is required"
+
+msgid "Pick a payment method to configure"
+msgstr "Pick a payment method to configure"
+
+msgid "Pick a payment method to configure...."
+msgstr "Pick a payment method to configure...."
+
+msgid "Configure..."
+msgstr "Configure..."
+
+msgid "Edit payment method"
+msgstr "Edit payment method"
+
+msgid "Payment method saved"
+msgstr "Payment method saved"
+
+msgid "Manage Events"
+msgstr "Manage Events"
+
+msgid "Select status"
+msgstr "Select status"
+
+msgid "Enabled"
+msgstr "Enabled"
+
+msgid "Disabled"
+msgstr "Disabled"
+
+msgid "Sold out"
+msgstr "Sold out"
+
+msgid "Ended"
+msgstr "Ended"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "About to delete, are you sure?"
+msgstr "About to delete, are you sure?"
+
+msgid "Update status"
+msgstr "Update status"
+
+msgid "Update status for selected items?"
+msgstr "Update status for selected items?"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "View registrants"
+msgstr "View registrants"
+
+msgid "All items"
+msgstr "All items"
+
+msgid "Mass actions"
+msgstr "Mass actions"
+
+msgid "Apply"
+msgstr "Apply"
+
+msgid "Select action first"
+msgstr "Select action first"
+
+msgid "Please select items first!"
+msgstr "Please select items first!"
+
+msgid "%status% is required!"
+msgstr "%status% is required!"
+
+msgid "Elements"
+msgstr "Elements"
+
+msgid "Users registered"
+msgstr "Users registered"
+
+msgid "New Event"
+msgstr "New Event"
+
+msgid "Title is required"
+msgstr "Title is required"
+
+msgid "Required entry"
+msgstr "Required entry"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Invalid URL"
+msgstr "Invalid URL"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Start date is required"
+msgstr "Start date is required"
+
+msgid "Start date is invalid"
+msgstr "Start date is invalid"
+
+msgid "Starts"
+msgstr "Starts"
+
+msgid "Invalid date"
+msgstr "Invalid date"
+
+msgid "Invalid time"
+msgstr "Invalid time"
+
+msgid "It's possible to use arrow keys, page-up, page-down or mouse to adjust time."
+msgstr "It's possible to use arrow keys, page-up, page-down or mouse to adjust time."
+
+msgid "You can turn off tooltips under the <a href=\"%s\">Calendar settings</a> menu."
+msgstr "You can turn off tooltips under the <a href=\"%s\">Calendar settings</a> menu."
+
+msgid "Ends date is invalid"
+msgstr "Ends date is invalid"
+
+msgid "Ends date is required"
+msgstr "Ends date is required"
+
+msgid "Active to date should be greater than Active from date"
+msgstr "Active to date should be greater than Active from date"
+
+msgid "Ends"
+msgstr "Ends"
+
+msgid "Description is required"
+msgstr "Description is required"
+
+msgid "Full day event"
+msgstr "Full day event"
+
+msgid "This is paid event"
+msgstr "This is paid event"
+
+msgid "Cost is required for the paid event"
+msgstr "Cost is required for the paid event"
+
+msgid "Cost price is invalid"
+msgstr "Cost price is invalid"
+
+msgid "Invalid price"
+msgstr "Invalid price"
+
+msgid "Cost"
+msgstr "Cost"
+
+msgid "Invalid Amount"
+msgstr "Invalid Amount"
+
+msgid "Invalid amount"
+msgstr "Invalid amount"
+
+msgid "Maximum registrants allowed"
+msgstr "Maximum registrants allowed"
+
+msgid "Leave this field to 0 to allow unlimited registrants."
+msgstr "Leave this field to 0 to allow unlimited registrants."
+
+msgid "You can use arrow keys to change the value of this field"
+msgstr "You can use arrow keys to change the value of this field"
+
+msgid "Last registration date is invalid"
+msgstr "Last registration date is invalid"
+
+msgid "Last registration date should be less than Active to date"
+msgstr "Last registration date should be less than Active to date"
+
+msgid "Registration lasts until"
+msgstr "Registration lasts until"
+
+msgid "Visible from date should be less than Active from date"
+msgstr "Visible from date should be less than Active from date"
+
+msgid "Visible from date is required"
+msgstr "Visible from date is required"
+
+msgid "Visible from date is invalid"
+msgstr "Visible from date is invalid"
+
+msgid "Visible from"
+msgstr "Visible from"
+
+msgid "Visible to date should be greater than Active to date"
+msgstr "Visible to date should be greater than Active to date"
+
+msgid "Visible to date is required"
+msgstr "Visible to date is required"
+
+msgid "Visible to date is invalid"
+msgstr "Visible to date is invalid"
+
+msgid "Visible to"
+msgstr "Visible to"
+
+msgid "Invalid color or URL"
+msgstr "Invalid color or URL"
+
+msgid "Invalid color or image URL"
+msgstr "Invalid color or image URL"
+
+msgid "Background"
+msgstr "Background"
+
+msgid "Select color"
+msgstr "Select color"
+
+msgid "Select image"
+msgstr "Select image"
+
+msgid "If you leave this field empty, background from the selected category will be used"
+msgstr "If you leave this field empty, background from the selected category will be used"
+
+msgid "Author is required"
+msgstr "Author is required"
+
+msgid "Event author"
+msgstr "Event author"
+
+msgid "Category is required"
+msgstr "Category is required"
+
+msgid "Event status"
+msgstr "Event status"
+
+msgid "Category"
+msgstr "Category"
+
+msgid "Free!"
+msgstr "Free!"
+
+msgid "Number of events updated to new status:"
+msgstr "Number of events updated to new status:"
+
+msgid "New status:"
+msgstr "New status:"
+
+msgid "Number of registrants deleted:"
+msgstr "Number of registrants deleted:"
+
+msgid "Number of events deleted:"
+msgstr "Number of events deleted:"
+
+msgid "Pending"
+msgstr "Pending"
+
+msgid "Payment accepted"
+msgstr "Payment accepted"
+
+msgid "Accepted"
+msgstr "Accepted"
+
+msgid "Rejected"
+msgstr "Rejected"
+
+msgid "Add new registrant"
+msgstr "Add new registrant"
+
+msgid "View event"
+msgstr "View event"
+
+msgid "Back to event list"
+msgstr "Back to event list"
+
+msgid "Mark as paid"
+msgstr "Mark as paid"
+
+msgid "Element"
+msgstr "Element"
+
+msgid "New Registrant"
+msgstr "New Registrant"
+
+msgid "First name"
+msgstr "First name"
+
+msgid "Last name"
+msgstr "Last name"
+
+msgid "Registered user"
+msgstr "Registered user"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Email is required"
+msgstr "Email is required"
+
+msgid "Registrant status"
+msgstr "Registrant status"
+
+msgid "Registrant status is required"
+msgstr "Registrant status is required"
+
+msgid "Registration date"
+msgstr "Registration date"
+
+msgid "Registration date is required"
+msgstr "Registration date is required"
+
+msgid "Registration date is invalid"
+msgstr "Registration date is invalid"
+
+msgid "Payment date"
+msgstr "Payment date"
+
+msgid "Payment date is invalid"
+msgstr "Payment date is invalid"
+
+msgid "Registrant successfully saved"
+msgstr "Registrant successfully saved"
+
+msgid "No items found"
+msgstr "No items found"
+
+msgid "Manage categories"
+msgstr "Manage categories"
+
+msgid "Add new category"
+msgstr "Add new category"
+
+msgid "New Category"
+msgstr "New Category"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Name is required"
+msgstr "Name is required"
+
+msgid "Is active?"
+msgstr "Is active?"
+
+msgid "Background is required"
+msgstr "Background is required"
+
+msgid "Sort order is required"
+msgstr "Sort order is required"
+
+msgid "Invalid sort order"
+msgstr "Invalid sort order"
+
+msgid "Sort order"
+msgstr "Sort order"
+
+msgid "Category successfully saved"
+msgstr "Category successfully saved"
+
+msgid "Edit category"
+msgstr "Edit category"
+
+msgid "Edit event"
+msgstr "Edit event"
+
+msgid "Event has been successfully saved"
+msgstr "Event has been successfully saved"
+
+msgid "Number of categories deleted:"
+msgstr "Number of categories deleted:"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "No limit"
+msgstr "No limit"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Registration ended"
+msgstr "Registration ended"
+
+msgid "Started"
+msgstr "Started"
+
+msgid "Free spots"
+msgstr "Free spots"
+
+msgid "Can register"
+msgstr "Can register"
+
+msgid "Registered"
+msgstr "Registered"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Registration successful"
+msgstr "Registration successful"
+
+msgid "Dear %1$s %2$s,"
+msgstr "Dear %1$s %2$s,"
+
+msgid "You have successfully registered for the event: %1$s"
+msgstr "You have successfully registered for the event: %1$s"
+
+msgid "Event starts: %1$s"
+msgstr "Event starts: %1$s"
+
+msgid "Kind regards"
+msgstr "Kind regards"
+
+msgid "Open for registration"
+msgstr "Open for registration"
+
+msgid "You have an account with us, please log in"
+msgstr "You have an account with us, please log in"
+
+msgid "Supplied E-mail has already been used to register for this event"
+msgstr "Supplied E-mail has already been used to register for this event"
+
+msgid "You can only register with your email: %s"
+msgstr "You can only register with your email: %s"
+
+msgid "Payment method"
+msgstr "Payment method"
+
+msgid "Payment method is required"
+msgstr "Payment method is required"
+
+msgid "Extra payment info"
+msgstr "Extra payment info"
+
+msgid "Booking to"
+msgstr "Booking to"
+
+msgid "Your registration info"
+msgstr "Your registration info"
+
+msgid "Registration status"
+msgstr "Registration status"
+
+msgid "Start payment"
+msgstr "Start payment"
+
+msgid "Payment operation failed"
+msgstr "Payment operation failed"
+
+msgid "Payment successful"
+msgstr "Payment successful"
+
+msgid "You have successfully paid for the event: %1$s"
+msgstr "You have successfully paid for the event: %1$s"
+
+msgid "Mark selected items as paid?"
+msgstr "Mark selected items as paid?"
+
+msgid "Mark as accepted"
+msgstr "Mark as accepted"
+
+msgid "Mark selected items as accepted?"
+msgstr "Mark selected items as accepted?"
+
+msgid "Mark as rejected"
+msgstr "Mark as rejected"
+
+msgid "Mark selected items as rejected?"
+msgstr "Mark selected items as rejected?"
+
+msgid "Registrant with id %s could not be marked as paid"
+msgstr "Registrant with id %s could not be marked as paid"
+
+msgid "Registrant with email %s marked as paid"
+msgstr "Registrant with email %s marked as paid"
+
+msgid "Registrant with email %s marked as accepted"
+msgstr "Registrant with email %s marked as accepted"
+
+msgid "Registrant with email %s is already accepted or rejected and cannot be accepted"
+msgstr "Registrant with email %s is already accepted or rejected and cannot be accepted"
+
+msgid "Registrant with email %s could not be marked as paid"
+msgstr "Registrant with email %s could not be marked as paid"
+
+msgid "Registrant with email %s has probably paid, maybe he needs a refund"
+msgstr "Registrant with email %s has probably paid, maybe he needs a refund"
+
+msgid "Registrant with email %s marked as rejected"
+msgstr "Registrant with email %s marked as rejected"
+
+msgid "Registrant with email %s has not paid, mark the registrant as paid before accepting"
+msgstr "Registrant with email %s has not paid, mark the registrant as paid before accepting"
+
+msgid "Registration accepted"
+msgstr "Registration accepted"
+
+msgid "Your registrations has been accepted for the event: %1$s"
+msgstr "Your registrations has been accepted for the event: %1$s"
+
+msgid "Registration rejected"
+msgstr "Registration rejected"
+
+msgid "Your registration has been rejected for the event: %1$s"
+msgstr "Your registration has been rejected for the event: %1$s"
+
+msgid "Close window"
+msgstr "Close window"
+
+msgid "You cannot change the email of %s for this registrant"
+msgstr "You cannot change the email of %s for this registrant"
+
+msgid "Back to registrants list"
+msgstr "Back to registrants list"
+
+msgid "Correct email for the registered user is %s, You need to use this email, if you wish to assign this entry to selected registered user"
+msgstr "Correct email for the registered user is %s, You need to use this email, if you wish to assign this entry to selected registered user"
+
+msgid "Correct email for the registered user is %s. You need to use this email, if you wish to assign this entry to the selected registered user"
+msgstr "Correct email for the registered user is %s. You need to use this email, if you wish to assign this entry to the selected registered user"
+
+msgid "Entered email belongs to logged in user"
+msgstr "Entered email belongs to logged in user"
+
+msgid "Entered email is registered for the user %s. Please set this user as Registered user or choose another email"
+msgstr "Entered email is registered for the user %s. Please set this user as Registered user or choose another email"
+
+msgid "Payment date was not set for the event, if the saved Registrant did not actually pay, then re-open the registrant and verify details before saving"
+msgstr "Payment date was not set for the event, if the saved Registrant did not actually pay, then re-open the registrant and verify details before saving"
+
+msgid "Event was not marked as paid"
+msgstr "Event was not marked as paid"
+
+msgid "Registrant marked as accepted"
+msgstr "Registrant marked as accepted"
+
+msgid "Registrant was marked as paid"
+msgstr "Registrant was marked as paid"
+
+msgid "Event started"
+msgstr "Event started"
+
+msgid "Expired"
+msgstr "Expired"
+
+msgid "Category with id %s cannot be deleted because it has events"
+msgstr "Category with id %s cannot be deleted because it has events"
+
+msgid "Insert Ipenelo Calendar"
+msgstr "Insert Ipenelo Calendar"
+
+msgid "Event list type"
+msgstr "Event list type"
+
+msgid "Calendar"
+msgstr "Calendar"
+
+msgid "Table"
+msgstr "Table"
+
+msgid " -- Please select -- "
+msgstr " -- Please select -- "
+
+msgid "Calendar size (Calendar view only)"
+msgstr "Calendar size (Calendar view only)"
+
+msgid "Calendar position (Calendar view only)"
+msgstr "Calendar position (Calendar view only)"
+
+msgid "Bottom"
+msgstr "Bottom"
+
+msgid "Top"
+msgstr "Top"
+
+msgid "Left"
+msgstr "Left"
+
+msgid "Right"
+msgstr "Right"
+
+msgid "Show only active events"
+msgstr "Show only active events"
+
+msgid "Show events only within the selected month"
+msgstr "Show events only within the selected month"
+
+msgid "All events"
+msgstr "All events"
+
+msgid "Current"
+msgstr "Current"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Month"
+msgstr "Month"
+
+msgid "Year"
+msgstr "Year"
+
+msgid "Filter by event ids, comma separated"
+msgstr "Filter by event ids, comma separated"
+
+msgid "Filter by category ids, comma separated"
+msgstr "Filter by category ids, comma separated"
+
+msgid "Insert Calendar shortcode"
+msgstr "Insert Calendar shortcode"
+
+msgid "Sandbox mode"
+msgstr "Sandbox mode"
+
+msgid "Api Account name"
+msgstr "Api Account name"
+
+msgid "Api Account password"
+msgstr "Api Account password"
+
+msgid "Api Account certificate"
+msgstr "Api Account certificate"
+
+msgid "New payment method"
+msgstr "New payment method"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "IPN (Instant payment Notification)"
+msgstr "IPN (Instant payment Notification)"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Method"
+msgstr "Method"
+
+msgid "'Starts' date should be greater than 'Ends' date"
+msgstr "'Starts' date should be greater than 'Ends' date"
+
+msgid "Last registration date should be less than 'Ends' date"
+msgstr "Last registration date should be less than 'Ends' date"
+
+msgid "Visible to date should be greater than 'Ends' date"
+msgstr "Visible to date should be greater than 'Ends' date"
+
+msgid "Scheduler Thumbnail"
+msgstr "Scheduler Thumbnail"
+
+msgid "(%d&nbsp;&times;&nbsp;%d)"
+msgstr "(%d&nbsp;&times;&nbsp;%d)"
+
+msgid "Configuration_eabi_ipenelo_calendar_from_email"
+msgstr "Notification email from"
+
+msgid "Configuration_eabi_ipenelo_calendar_from_name"
+msgstr "Notification email from name"
+
+msgid "Configuration_eabi_ipenelo_calendar_default_category"
+msgstr "Default category"
+
+msgid "Configuration_eabi_ipenelo_calendar_enable_12h"
+msgstr "Show 12 hour time"
+
+msgid "Calendar event window position (Calendar view only)"
+msgstr "Calendar event window position (Calendar view only)"
+
+msgid "Sandbox mode (Testmode)"
+msgstr "Sandbox mode (Testmode)"
+
+msgid "You just saved paid event, but currency has not been set up under Settings menu!"
+msgstr "You just saved paid event, but currency has not been set up under Settings menu!"
+
+msgid "You just saved paid event, but currency has not been set up properly under Settings menu!"
+msgstr "You just saved paid event, but currency has not been set up properly under Settings menu!"
+
+msgid "You just saved a paid event, but you don't have any active payment methods"
+msgstr "You just saved a paid event, but you don't have any active payment methods"
+
+msgid "Configuration_eabi_ipenelo_calendar_show_in_admin_bar"
+msgstr "Show menu in admin bar"
+
+msgid "Add new Event"
+msgstr "Add new Event"
+
+msgid "Ipenelo Calendar"
+msgstr "Ipenelo Calendar"
+
+msgid "If empty, email settings from the <a href=\"%s\">Options</a> will be used"
+msgstr "If empty, email settings from the <a href=\"%s\">Options</a> will be used"
+
+msgid "If empty, email settings from the <a href='%s'>Options</a> will be used"
+msgstr "If empty, email settings from the <a href='%s'>Options</a> will be used"
+
+msgid "If left empty, email settings from the <a href='%s'>General options</a> will be used"
+msgstr "If left empty, email settings from the <a href='%s'>General options</a> will be used"
+
+msgid "Tooltips like the one you are reading right now are not shown, when you enable this option"
+msgstr "Tooltips like the one you are reading right now are not shown, when you enable this option"
+
+msgid "Tooltips, like the one you are reading right now, are not shown, when you enable this option"
+msgstr "Tooltips, like the one you are reading right now, are not shown, when you enable this option"
+
+msgid "If you are using paid events, then you need to make sure that the currency ISO code is correct. Examples can be USD, EUR, JPY...."
+msgstr "If you are using paid events, then you need to make sure that the currency ISO code is correct. Examples can be USD, EUR, JPY...."
+
+msgid "Make title link"
+msgstr "Make title link"
+
+msgid "Make event title clickable link"
+msgstr "Make event title clickable link"
+
+msgid "Forces the Start and End times to be at 00:00 and 23:59 respectively"
+msgstr "Forces the Start and End times to be at 00:00 and 23:59 respectively"
+
+msgid "Security validation failed"
+msgstr "Security validation failed"
+
+msgid "Type 'current' to get the event ID from URL request parameter. Example: %s/?event_id=x "
+msgstr "Type 'current' to get the event ID from URL request parameter. Example: %s/?event_id=x "
+
+msgid "All day"
+msgstr "All day"
+
+msgid "Configuration_eabi_ipenelo_calendar_disable_registration"
+msgstr "Disable registration"
+
+msgid "Registration is disabled"
+msgstr "Registration is disabled"
+
+msgid "When registration is disabled Calendar can be shown just for showing your schedule"
+msgstr "When registration is disabled Calendar can be shown just for showing your schedule"
+
+msgid "When registration is disabled Calendar can be used just for showing your schedule"
+msgstr "When registration is disabled Calendar can be used just for showing your schedule"
+
+msgid "Configuration_eabi_ipenelo_calendar_disable_infoicon"
+msgstr "Disable infoicon from the Calendar event list"
+
+msgid "When disabled Information icon will not be displayed next to the event title in the event list. <br/>Disabling this may mean that users cannot access detailed view for the event when registration is disabled"
+msgstr "When disabled Information icon will not be displayed next to the event title in the event list. <br/>Disabling this may mean that users cannot access detailed view for the event when registration is disabled"
+
+msgid "When disabled, information icon, which opens the detail view, will not be displayed next to the event title in the event list. <br/>Disabling this may mean that users cannot access detailed view for the event when registration is disabled"
+msgstr "When disabled, information icon, which opens the detail view, will not be displayed next to the event title in the event list. <br/>Disabling this may mean that users cannot access detailed view for the event when registration is disabled"
+
+msgid "Manage registrants (%s)"
+msgstr "Manage registrants (%s)"
+
+msgid "Please support our work by placing author links at the bottom of each Calendar and List view on the public side. <a href=\"%s\">Click here to enable.</a>"
+msgstr "Please support our work by placing author links at the bottom of each Calendar and List view on the public side. <a href=\"%s\">Click here to enable.</a>"
+
+msgid "Thank you for your support!"
+msgstr "Thank you for your support!"
+

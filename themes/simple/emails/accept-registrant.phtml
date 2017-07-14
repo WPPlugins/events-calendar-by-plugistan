@@ -1,0 +1,21 @@
+<?php
+	$event = $params['event'];
+	$registrant = $params['registrant'];
+	
+?>
+<html>
+<body>
+	<h1><?php echo sprintf($translate->l('Dear %1$s %2$s,'), $registrant['first_name'], $registrant['last_name']); ?></h1>
+	<p>
+		<?php echo sprintf($translate->l('Your registrations has been accepted for the event: %1$s'), htmlspecialchars($event['title']) ); ?>
+	</p>
+	<p>
+		<?php echo sprintf($translate->l('Event starts: %1$s'), htmlspecialchars($event['active_from_friendly']) ); ?>
+	</p>
+	<p>
+		<?php echo $translate->l('Kind regards'); ?>,<br/>
+		<?php echo get_option('blogname'); ?><br/>
+		<a href="<?php echo get_option('home'); ?>"><?php echo get_option('home'); ?></a>
+	</p>
+</body>
+</html>

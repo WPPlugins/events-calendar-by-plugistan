@@ -1,0 +1,1078 @@
+
+/**
+
+Calendar wrapper css
+
+*/
+
+.ipenelo-calendar-wrapper {
+	height:400px;
+	width:590px;
+	float:none;
+	margin-top: 1px;
+}
+
+.ipenelo-calendar-wrapper input {
+}
+
+.ipenelo-calendar-form {
+	-moz-border-radius:5px;
+	background-color:#36387B;
+	color:#FFFFFF;
+	float:left;
+	font-size:16px;
+	height:252px;
+	line-height:10px;
+	margin-top:0px;
+	padding:20px;
+	text-shadow:0 0 5px #DDDDDD;
+	width:590px;
+}
+
+
+
+
+
+/** tooltip css */
+
+
+.ipenelo-calendar-day {
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	color:#cbff01;
+	font-size:16px;
+	display: table;
+	line-height:10px;
+	padding:20px;
+	text-shadow:0 0 5px #DDDDDD;
+	width:590px;
+	z-index: 5;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.ipenelo-calendar-day span {
+	display:block;
+	font-size:16px;
+	text-align:center;		
+}
+
+.ipenelo-calendar-day table {
+	border: 0px solid #ccc;
+	width: 580px;
+}
+
+.ipenelo-close {
+	cursor: pointer;
+	display: block;
+	height: 24px;
+	width: 24px;
+	font-size: 0 !important;
+	background: url('../img/window-close.png');
+	float: right;
+	margin-right: -16px;
+	margin-top: -16px;
+}
+
+.ipenelo-calendar-day table th, .ipenelo-calendar-day table td {
+	text-align: center;
+	padding: 10px 0;
+	border: 0px solid #ccc;
+	color: #cbff01;
+        background: inherit;
+
+}
+
+.ipenelo-calendar-registrant-form-wrapper th {
+    background: inherit;
+}
+
+
+.ipenelo-calendar-day table thead th {
+	border-bottom: 1px solid #ccc;
+}
+.ipenelo-calendar-day table td {
+	color: #cbff01;
+	font-size: 14px;
+}
+
+.ipenelo-calendar-day th.background {
+	width: 110px;
+	font-weight: bold;
+	border-right: 1px solid #ccc;
+}
+.ipenelo-calendar-day th.status, .ipenelo-calendar-day td.status {
+	width: 120px;
+}
+
+
+.ipenelo-calendar-day td.background {
+	width: 32px;
+}
+
+.ipenelo-calendar-day span.ipenelo-category {
+	width: 32px;
+	display: block;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.ipenelo-calendar-day td.time {
+	width: 78px;
+	border-right: 1px solid #ccc;
+}
+.ipenelo-calendar-day td.title {
+	text-align: left;
+	padding-left: 10px;
+	line-height: 18px;
+}
+
+.ipenelo-calendar-day td.title a {
+	cursor: pointer;
+	color: #cbff01;
+}
+
+.ipenelo-calendar-day td.price {
+	width: 80px;
+	font-weight: bold;
+}
+
+.ipenelo-calendar-day a.ipenelo-register {
+	display: block;
+	background: #cbff01;
+
+	background: linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#cbff01) , color-stop(0.5, #fbff31) , to(#cbff01)) repeat scroll 0 0 transparent;
+	border: 1px solid #ccc;
+	width: 90px;
+	padding: 5px;
+	color: #000;
+	text-decoration: none;
+	line-height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.ipenelo-calendar-day a.ipenelo-register:hover {
+	text-decoration: none;
+}
+
+/** end of tooltip css */
+
+
+/** start table-view css */
+
+
+
+.ipenelo-calendar-table {
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	border: 0px solid #ddd;
+	color:#cbff01;
+	font-size:16px;
+	width:98%;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+.ipenelo-calendar-table span {
+	display:block;
+	font-size:16px;
+	text-align:center;		
+}
+
+
+.ipenelo-calendar-table th, .ipenelo-calendar-table td {
+	text-align: center;
+	padding: 10px 0;
+	border: 0px solid #ccc;
+	color: #cbff01;
+}
+.ipenelo-calendar-table thead th {
+	border-bottom: 1px solid #ccc;
+	text-transform: none;
+	font-size: 16px;
+}
+.ipenelo-calendar-table td {
+	color: #cbff01;
+	font-size: 14px;
+}
+
+.ipenelo-calendar-table th.background {
+	width: 110px;
+	font-weight: bold;
+	border-right: 1px solid #ccc;
+}
+.ipenelo-calendar-table th.status, .ipenelo-calendar-day td.status {
+	width: 120px;
+}
+
+
+.ipenelo-calendar-table td.background {
+	width: 32px;
+	padding: 10px 5px;
+}
+
+.ipenelo-calendar-table span.ipenelo-category {
+	width: 32px;
+	display: block;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.ipenelo-calendar-table td.time {
+	width: 78px;
+	border-right: 1px solid #ccc;
+}
+.ipenelo-calendar-table td.title {
+	text-align: left;
+	padding-left: 10px;
+	line-height: 18px;
+}
+
+.ipenelo-calendar-table td.title a {
+	cursor: pointer;
+	color: #cbff01;
+}
+
+.ipenelo-calendar-table td.price {
+	width: 80px;
+	font-weight: bold;
+}
+
+.ipenelo-calendar-table a.ipenelo-register {
+	display: block;
+	background: #cbff01;
+	background: linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#cbff01) , color-stop(0.5, #fbff31) , to(#cbff01)) repeat scroll 0 0 transparent;
+	border: 1px solid #ccc;
+	width: 90px;
+	padding: 5px;
+	color: #000;
+	text-decoration: none;
+	line-height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.ipenelo-calendar-table a.ipenelo-register:hover {
+	text-decoration: none;
+}
+
+
+/** end table-view css */
+
+
+/**************/
+/* the input field */
+.ipenelo-calendar-input {
+	border:1px solid #ccc;
+	font-size:18px;
+	padding:4px;
+	text-align:center;
+	width:180px;		
+	box-shadow:0 0 10px #eee inset;
+	-moz-box-shadow:0 0 10px #eee inset;
+	-webkit-box-shadow:0 0 10px #eee inset;
+}
+
+/* end calendar wrapper css */
+
+/* start calendar css */
+
+/* default calendar - medium sized */
+
+.calroot {
+	/* place on top of other elements. set a higher value if nessessary */
+	z-index:1;	
+	margin-top:-26px;	
+	width:370px;	
+}
+
+.calroot #calbody {
+	clear:both;
+	font-family:sans-serif;		
+	width:366px;
+	font-size:13px;
+	border:1px solid #505050;
+	border-width:1px 1px 0;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	box-shadow:0 2px 5px;
+	-webkit-box-shadow:0 2px 5px;
+	-moz-box-shadow:0 2px 5px;
+	display: table;
+	padding-bottom: 2px;
+}
+
+.calroot #calhead {
+	margin-left:195px;
+	margin-right: 4px;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	position: relative;
+	z-index: 1;
+	height: 24px;
+	border-radius-topright: 7px;
+	-moz-border-radius-topright: 7px;
+	border-top-right-radius: 7px;
+	border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-top-left-radius: 7px;
+}
+
+.calroot #caltitle {
+	font-family:sans-serif;		
+	text-align:center;
+	font-size:14px;
+	float:left;
+	width:125px;
+	color: #cbff01;
+}
+
+.calroot #calnext, .calroot #calprev {
+	display:block;
+	width:20px;
+	height:20px;
+	background:transparent url("../img/prev.gif") no-repeat scroll center center;
+	float:left;
+	cursor:pointer;
+}
+
+.calroot #calnext {
+	background-image:url("../img/next.gif");
+	float:right;
+}
+
+.calroot #calprev.caldisabled, .calroot #calnext.caldisabled {
+	visibility:hidden;	
+}
+
+.calroot #caldays span {
+	display:block;
+	float:left;
+	width:52px;
+	text-align:center;
+	font-weight:bold;
+	padding:4px 0;
+	font-size:11px;
+	color:#cbff01;
+	line-height:18px;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+}
+
+.calroot #calweeks {
+	
+}
+
+.calroot .calweek {
+	clear:left;
+	height:50px;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+}
+
+
+.calroot .calweek a {
+	display:block;
+	float:left;
+	width:50px;
+	height:50px;
+	text-decoration:none;
+	font-size:15px;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	border:1px solid #505050;
+	text-shadow:0px 1px 0px #0e0d0d;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+
+} 
+
+.calroot a.calsunday {
+	color:#900;
+}
+
+.calroot .calweek a:hover, .calroot .calfocus {
+	color: #fff;
+}
+
+.calroot .calsun {
+	color:red;		
+}
+
+.calroot a.caloff {
+	color:#555;	
+}
+
+.calroot a.caloff.calfocus {
+	background-color:#ddd;		
+}
+
+.calroot .caldisabled {
+	color:#222	!important;
+	cursor:default;
+	border: 1px solid #000 !important;
+}
+
+.calroot .caloff:hover {
+	color: #fff;
+}
+
+
+.calroot #caltitle select {
+	font-size:10px;	
+}
+
+/* current day */
+.calroot #calcurrent {
+	color:#fff;
+	text-shadow:0 1px 0 #000;
+	border:1px solid #ccc;
+	width:50px;
+	box-shadow:inset 0 0 10px 0px #000;
+	-moz-box-shadow:inset 0 0 10px 0px #000;
+	-webkit-box-shadow:inset 0 0 10px 0px #000;
+}
+
+/* today */
+.calroot #caltoday {
+	color:#fff;
+	text-shadow:0 1px 0 #000;
+}
+
+/* end default medium sized calendar */
+
+/** start small calendar */
+
+
+.calrootsmall {
+	/* place on top of other elements. set a higher value if nessessary */
+	z-index:1;
+	margin-top:-1px;
+	width:202px;
+	padding:2px;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	font-size:11px;
+	border:1px solid #505050;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 0 0 15px #666;
+	-moz-box-shadow: 0 0 15px #666;
+	-webkit-box-shadow: 0 0 15px #666;	
+	display: table;
+	padding-bottom: 2px;
+}
+
+/* head. contains title, prev/next month controls and possible month/year selectors */
+.calrootsmall #calhead {	
+	padding:2px 0;
+	height:22px;
+} 
+
+.calrootsmall #caltitle {
+	font-size:14px;
+	color:#cbff01;	
+	float:left;
+	text-align:center;
+	width:150px;
+	line-height:20px;
+}
+
+.calrootsmall #calnext, .calrootsmall #calprev {
+	display:block;
+	width:20px;
+	height:20px;
+	background:transparent url("../img/prev.gif") no-repeat scroll center center;
+	float:left;
+	cursor:pointer;
+}
+
+.calrootsmall #calnext {
+	background-image:url("../img/next.gif");
+	float:right;
+}
+
+.calrootsmall #calprev.caldisabled , .calrootsmall #calnext.caldisabled {
+	visibility:hidden;	
+}
+
+/* year/month selector */
+.calrootsmall #caltitle select {
+	font-size:10px;	
+}
+
+/* names of the days */
+.calrootsmall #caldays {
+	height:14px;
+}
+
+.calrootsmall #caldays span {
+	display:block;
+	float:left;
+	width:28px;
+	text-align:center;
+	color: #cbff01
+}
+
+/* container for weeks */
+.calrootsmall #calweeks {
+	background-color:#000;
+	margin-top:4px;
+}
+
+/* single week */
+.calrootsmall .calweek {
+	clear:left;
+	height:22px;
+}
+
+/* single day */
+.calrootsmall .calweek a {
+	display:block;
+	float:left;
+	width:25px;
+	height:20px;
+	text-decoration:none;
+	font-size:11px;
+	margin-left:1px;
+	text-align:center;
+	line-height:20px;
+	color:#fff;
+	text-shadow:0px 1px 0px #0e0d0d;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	border:1px solid #505050;
+} 
+
+/* different states */
+.calrootsmall .calweek a:hover , .calrootsmall .calfocus {
+	background-color:#ddd;
+}
+
+/* sunday */
+.calrootsmall a.calsun {
+	color:#900;		
+}
+.calrootsmall a.calsunday {
+	color:#900;		
+}
+
+/* offmonth day */
+.calrootsmall a.caloff {
+	color:#555;		
+}
+
+.calrootsmall a.caloff:hover {
+	color: #fff;
+}
+
+
+/* unselecteble day */
+.calrootsmall a.caldisabled {
+	color:#222	!important;
+	cursor:default;
+	border: 1px solid #000;
+}
+
+/* current day */
+.calrootsmall #calcurrent {
+	color:#fff;
+	text-shadow:0 1px 0 #000;
+	border:1px solid #ccc;
+	width: 25px;
+	box-shadow:inset 0 0 10px 0px #000;
+	-moz-box-shadow:inset 0 0 10px 0px #000;
+	-webkit-box-shadow:inset 0 0 10px 0px #000;
+}
+
+/* today */
+.calrootsmall #caltoday {
+	color:#fff;
+}
+
+.ipenelo-calrootsmall {
+	height: 220px !important;
+}
+/* end small calendar */
+
+/** start large size calendar */
+
+.calrootlarge {
+	/* place on top of other elements. set a higher value if nessessary */
+	z-index:1;	
+	margin-top:-26px;	
+	width:630px;	
+}
+
+.calrootlarge #calbody {
+	clear:both;
+	font-family:sans-serif;		
+	width:632px;
+	font-size:16px;
+	border:1px solid #505050;
+	border-width:1px 1px 0;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	box-shadow:0 2px 5px;
+	-webkit-box-shadow:0 2px 5px;
+	-moz-box-shadow:0 2px 5px;
+	display: table;
+	padding-bottom: 2px;
+}
+
+.calrootlarge #calhead {
+	margin-left:195px;
+	margin-right: -2px;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	position: relative;
+	z-index: 1;
+	height: 24px;
+	border-radius-topright: 7px;
+	-moz-border-radius-topright: 7px;
+	border-top-right-radius: 7px;
+	border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-top-left-radius: 7px;
+}
+
+.calrootlarge #caltitle {
+	font-family:sans-serif;
+	text-align:center;
+	font-size:14px;
+	float:left;
+	width:390px;
+	color: #cbff01;
+}
+
+.calrootlarge #calnext , .calrootlarge #calprev {
+	display:block;
+	width:20px;
+	height:20px;
+	background:transparent url("../img/prev.gif") no-repeat scroll center center;
+	float:left;
+	cursor:pointer;
+}
+
+.calrootlarge #calnext {
+	background-image:url("../img/next.gif");
+	float:right;
+}
+
+.calrootlarge #calprev.caldisabled, .calrootlarge #calnext.caldisabled {
+	visibility:hidden;	
+}
+
+.calrootlarge #caldays span {
+	display:block;
+	float:left;
+	width:90px;
+	text-align:center;
+	font-weight:bold;
+	padding:4px 0;
+	font-size:11px;
+	color:#cbff01;
+	line-height:18px;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+}
+
+.calrootlarge #calweeks {
+	
+}
+
+.calrootlarge .calweek {
+	clear:left;
+	height:50px;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+}
+
+
+.calrootlarge .calweek a {
+	display:block;
+	float:left;
+	width:88px;
+	height:50px;
+	text-decoration:none;
+	font-size:21px;
+	font-weight: bold;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	border:1px solid #505050;
+	text-shadow:0px 1px 0px #0e0d0d;
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+} 
+
+.calrootlarge a.calsunday {
+	color:#900;
+}
+
+.calrootlarge .calweek a:hover, .calrootlarge .calfocus {
+	color:#fff;
+}
+
+.calrootlarge .calsun {
+	color:#900;		
+}
+
+.calrootlarge a.caloff {
+	color:#555;	
+}
+
+.calrootlarge a.caloff.calfocus {
+}
+
+.calrootlarge .caldisabled {
+	color:#222	!important;
+	cursor:default;
+	border: 1px solid #000 !important;
+}
+
+.calrootlarge .caloff:hover {
+}
+
+
+.calrootlarge #caltitle select {
+	font-size:10px;	
+}
+
+/* current day */
+.calrootlarge #calcurrent {
+	color:#fff;
+	text-shadow:0 1px 0 #000;
+	border:1px solid #ccc;
+	width:88px;
+	box-shadow:inset 0 0 10px 0px #000;
+	-moz-box-shadow:inset 0 0 10px 0px #000;
+	-webkit-box-shadow:inset 0 0 10px 0px #000;
+}
+
+/* today */
+.calrootlarge #caltoday {
+	color:#fff;
+	text-shadow:0 1px 0 #000;
+}
+
+/* end large size calendar */
+
+/**  end calendar css */
+
+
+
+
+div.error {
+	z-index: 9999;
+    background-color: #FFEBE8;
+    border-color: #CC0000;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px 15px 2px;
+    padding: 0 0.6em;
+}
+
+div.error p , #message p {
+	margin: 0;
+}
+
+.form-table td {
+	padding: 5px;
+}
+
+
+#message {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 16px 8px;
+    padding: 12px;
+}
+
+
+div.ipenelo_colordiv {
+	height: 32px;
+	width: 32px;
+	display: block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.ipenelo-calendar-registrant-form-wrapper {
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 1px solid #ccc;
+}
+
+div.ipenelo-calendar-registrant-form {
+	color: #cbff01;
+	margin-left: 10px;
+}
+
+div.ipenelo-calendar-registrant-form h2 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: none;
+	text-align: left;
+	padding-top: 7px;
+}
+
+div.ipenelo-calendar-registrant-form a.ipenelo-register, 
+div.ipenelo-calendar-registrant-form input.ipenelo-register
+{
+	display: block;
+	background: #cbff01;
+	background: linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #cbff01 0%, #fbff31 50%, #cbff01 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#cbff01) , color-stop(0.5, #fbff31) , to(#cbff01)) repeat scroll 0 0 transparent;
+	border: 1px solid #ccc;
+	width: 90px;
+	padding: 5px;
+	color: #000;
+	text-decoration: none;
+	line-height: 20px;
+	margin-left: 5px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+div.ipenelo-calendar-event {
+	color: #cbff01;
+}
+
+div.ipenelo-calendar-event h2 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: none;
+	text-align: left;
+	padding-top: 7px;
+}
+div.ipenelo-calendar-event div.row {
+	clear: both;
+	float: none;
+	display: table;
+	width: 100%;
+}
+
+div.ipenelo-calendar-event div.row:first-child {
+	border-top: 1px solid #ccc;
+	padding-top: 5px;
+}
+
+div.ipenelo-calendar-event div.background {
+	float: left;
+	width: 32px;
+	padding: 0 10px;
+}
+
+div.ipenelo-calendar-event div.background > div {
+	border-radius: 5px;
+}
+
+div.ipenelo-calendar-event div.title {
+	float: left;
+	padding: 0 10px;
+	text-align: center;
+	width: 85%;
+}
+
+div.ipenelo-calendar-event div.cost {
+	float: right;
+	width: 250px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+}
+div.ipenelo-calendar-event div.url {
+	float: left;
+	padding: 0 10px;
+	width: 100%;
+	text-align: center;
+}
+
+div.ipenelo-calendar-event div.url a:hover {
+	color: #cbff01 !important;
+	text-decoration: none;
+}
+
+
+div.ipenelo-calendar-event div.active_from {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	text-align: left;
+}
+div.ipenelo-calendar-event div.active_to {
+	float: left;
+	padding: 10px;
+	text-align: left;
+}
+
+div.ipenelo-calendar-event div.description {
+	padding: 10px;
+	border-top: 1px solid #ccc;
+}
+div.ipenelo-calendar-event div.description span > div {
+	padding: 0 !important;
+}
+
+
+div.ipenelo-calendar-event div.last_registration_allowed {
+	text-align: center;
+	float: left;
+	padding: 0 10px;
+}
+
+div.ipenelo-calendar-event div.free_spots {
+	float:right;
+	padding-right: 10px;
+}
+
+.ipenelo-small {
+	font-size: 10px !important;
+}
+
+
+div.ipenelo_hidden {
+	display: none;
+}
+
+
+
+a.info-icon {
+	background: #000;
+	background:linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-moz-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-ms-linear-gradient(left center , #000000 0%, #303030 50%, #000000 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left center , right center , from(#000000) , color-stop(0.5, #303030) , to(#000000)) repeat scroll 0 0 transparent;
+
+	display: inline-block;
+	width: 16px;
+	border: 1px solid #ccc;
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	padding: 0px 1px;
+	text-align: center;
+	font-size: 10px;
+	font-style: italic;
+	color: #fff !important;
+}
+
+a.info-icon:hover {
+	text-decoration: none;
+	border: 1px solid #cbff01;
+	color: #cbff01 !important;
+}
+
+div.ipenelo-calendar-free {
+    width: 590px;
+    height: 50px;
+}
